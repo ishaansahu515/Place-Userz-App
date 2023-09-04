@@ -16,7 +16,8 @@
   
   .nav-links a {
     border: 1px solid transparent;
-    color: #292929;
+    border-radius: 10px;
+    /* color: #292929; */
     text-decoration: none;
     padding: 0.5rem;
   }
@@ -24,9 +25,10 @@
   .nav-links a:hover,
   .nav-links a:active,
   .nav-links a.active {
-    background: #f8df00;
-    border-color: #292929;
-    color: #292929;
+    /* background: #f8df00; */
+    background: #252F69;
+    /* border-color: #292929; */
+    /* color: #292929; */
   }
   
   .nav-links button {
@@ -60,18 +62,21 @@
     .nav-links a {
       color: white;
       text-decoration: none;
+      font-weight: 500;
+      font-size: 15px;
     }
   
     .nav-links button {
       border: 1px solid white;
+      border-radius: 10px;
       color: white;
       background: transparent;
     }
     
     .nav-links button:hover,
     .nav-links button:active {
-      background: #f8df00;
-      color: #292929;
+      background: #252F69;
+      color: white;
     }
   }
   
