@@ -10,7 +10,8 @@ html {
 
 body {
   margin: 0;
-  background: #4d4d4d;
+  background: #FAFAFA;
+  font-family: 'Roboto', sans-serif;
 }
 
 .slide-in-left-enter {

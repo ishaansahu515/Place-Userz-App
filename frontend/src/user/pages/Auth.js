@@ -138,11 +138,11 @@ formData.append('image', formState.inputs.image.value);
             errorText="Please enter a valid password, at least 6 characters."
             onInput={inputHandler}
           />
-          <Button type="submit" disabled={!formState.isValid}>
+          <Button className="button1" type="submit" disabled={!formState.isValid}>
             {isLoginMode ? 'LOGIN' : 'SIGNUP'}
           </Button>
         </form>
-        <Button inverse onClick={switchModeHandler}>
+        <Button className="button" inverse onClick={switchModeHandler}>
           SWITCH TO {isLoginMode ? 'SIGNUP' : 'LOGIN'}
         </Button>
       </Card>
